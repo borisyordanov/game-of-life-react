@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently */
+  text-decoration: none;
+  outline: none;
+  
+}
+.container{
+  margin-top: 20px;
+}
+.cell {
+  height: 18px;
+  width: 18px;
+  background: white;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.field {
+  display: inline-block;
+  background: #7E7E8A;
+  padding: 15px;
+}
+
+.alive {
+  background: red;
+}
+
+.young {
+  background: pink;
+}
+
+.controls {
+  margin: 15px 0;
+}
+
+.field {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.small {
+  width: 300px;
+  height: 300px;
+}
+
+.medium {
+  width: 500px;
+  height: 500px;
+}
+
+.large {
+  width: 700px;
+  height: 700px;
+}
+
+.label {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.generations {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+ .btn {
+  display: inline-block;
+  height: 40px;
+  padding: 0 8px;
+  margin: 0 2px;
+  font-size: 18px;
+  font-weight: bold;
+  background: transparent;
+  box-shadow: 0 0 0 3px #26a69a inset;
+  cursor: pointer;
+  color: #26a69a;
+  transition: background .3s;
+}
+ 
